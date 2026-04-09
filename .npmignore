@@ -1,0 +1,15 @@
+src/
+example/
+example-react/
+node_modules/
+.vscode/
+*.log
+.DS_Store
+tsconfig.json
+architecture.md
+roadmap.md
+security.md
+webview.md
+PUBLISH.md
+*.test.ts
+*.spec.ts

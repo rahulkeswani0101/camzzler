@@ -6,22 +6,17 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
-    "0": [
-      {
-        "import": "./dist/index.mjs",
-        "require": "./dist/index.js",
-        "types": "./dist/index.d.ts"
-      }
-    ],
     ".": {
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
     }
   },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --minify",
     "dev": "tsup src/index.ts --watch",
+    "test": "npm run build && cp -r dist example/ && npx serve example -p 3000",
+    "test:tunnel": "npx ngrok http 3000",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -29,17 +24,42 @@
     "webrtc",
     "selfie",
     "webview",
-    "mobile"
+    "mobile",
+    "photo",
+    "capture",
+    "react",
+    "vue",
+    "angular",
+    "ios",
+    "android",
+    "webcam",
+    "video",
+    "getUserMedia",
+    "native",
+    "ui"
   ],
-  "author": "",
+  "author": "Your Name <your.email@example.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/camzzler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/camzzler/issues"
+  },
+  "homepage": "https://github.com/yourusername/camzzler#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "devDependencies": {
     "tsup": "^8.0.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.9.3"
   },
   "engines": {
     "node": ">=18"
   },
   "type": "module",
-  "sideEffects": "false"
+  "sideEffects": false
 }
