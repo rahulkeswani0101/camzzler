@@ -15,8 +15,6 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --minify",
     "dev": "tsup src/index.ts --watch",
-    "test": "npm run build && cp -r dist example/ && npx serve example -p 3000",
-    "test:tunnel": "npx ngrok http 3000",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -38,16 +36,16 @@
     "native",
     "ui"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Rahul Keswani <rahulkeswani010@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/camzzler.git"
+    "url": "https://github.com/rahulkeswani010/camzzler.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/camzzler/issues"
+    "url": "https://github.com/rahulkeswani010/camzzler/issues"
   },
-  "homepage": "https://github.com/yourusername/camzzler#readme",
+  "homepage": "https://github.com/rahulkeswani010/camzzler#readme",
   "files": [
     "dist",
     "README.md",
