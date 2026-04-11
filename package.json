@@ -40,12 +40,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rahulkeswani010/camzzler.git"
+    "url": "https://github.com/rahulkeswani0101/camzzler"
   },
   "bugs": {
-    "url": "https://github.com/rahulkeswani010/camzzler/issues"
+    "url": "https://github.com/rahulkeswani0101/camzzler/issues"
   },
-  "homepage": "https://github.com/rahulkeswani010/camzzler#readme",
+  "homepage": "https://github.com/rahulkeswani0101/camzzler#readme",
   "files": [
     "dist",
     "README.md",
