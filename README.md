@@ -248,6 +248,6 @@ Issues and PRs welcome!
 
 ## 🔗 Links
 
-- GitHub: https://github.com/rahulkeswani0101/camzzler
-- NPM: https://www.npmjs.com/package/camzzler
-- Issues: https://github.com/rahulkeswani0101/camzzler/issues
+- GitHub: [Camzzler Repository](https://github.com/rahulkeswani0101/camzzler)
+- NPM: [View on npm](https://www.npmjs.com/package/camzzler)
+- Issues: [Report a bug](https://github.com/rahulkeswani0101/camzzler/issues)
