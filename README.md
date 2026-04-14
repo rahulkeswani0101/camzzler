@@ -245,8 +245,9 @@ MIT
 
 Issues and PRs welcome!
 
+
 ## 🔗 Links
 
-- [GitHub](https://github.com/yourusername/camzzler)
-- [NPM](https://www.npmjs.com/package/camzzler)
-- [Issues](https://github.com/yourusername/camzzler/issues)
+- GitHub: https://github.com/rahulkeswani0101/camzzler
+- NPM: https://www.npmjs.com/package/camzzler
+- Issues: https://github.com/rahulkeswani0101/camzzler/issues
