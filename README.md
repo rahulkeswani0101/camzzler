@@ -47,6 +47,39 @@ const camera = new CamzzlerUI({
 camera.start();
 ```
 
+### React Example
+
+```jsx
+import { useState } from 'react';
+import { CamzzlerUI } from 'camzzler';
+
+function CameraComponent() {
+  const [photo, setPhoto] = useState(null);
+
+  const openCamera = () => {
+    const camera = new CamzzlerUI({
+      fullScreen: true,
+      showSwitchButton: true,
+      onConfirm: (imageData) => {
+        setPhoto(imageData);
+      },
+      onClose: () => {
+        console.log('Camera closed');
+      }
+    });
+
+    camera.start();
+  };
+
+  return (
+    <div>
+      <button onClick={openCamera}>📸 Open Camera</button>
+      {photo && <img src={photo} alt="Captured" />}
+    </div>
+  );
+}
+```
+
 ### Embedded Camera
 
 ```typescript

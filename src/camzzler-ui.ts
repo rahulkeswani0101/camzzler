@@ -1,4 +1,4 @@
-import { Camzzler } from './index';
+import { Camzzler } from './camzzler';
 import type { CamzzlerOptions, CaptureOptions } from './types';
 
 export interface CamzzlerUIOptions extends CamzzlerOptions {
@@ -43,7 +43,7 @@ export class CamzzlerUI {
       showCloseButton: true,
       fullScreen: false,
       captureButtonText: '📸 Capture',
-      switchButtonIcon: '⟲', // Better rotation icon
+      switchButtonIcon: '🔄', // Camera flip icon
       confirmButtonText: '✓ Use Photo',
       retakeButtonText: '✕ Retake',
       theme: 'dark' as const,
